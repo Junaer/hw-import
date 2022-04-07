@@ -1,5 +1,5 @@
-from salary import calculate_salary
-from people import get_employees
+from application.salary import calculate_salary
+from application.db.people import get_employees
 print ('main start')
 
 if __name__ == '__main__':
